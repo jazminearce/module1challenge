@@ -47,7 +47,8 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .hero {
@@ -104,22 +105,28 @@ p {
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 26px;
+    line-height: 20px;
 }
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 26px;
+    line-height: 20px;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 26px;
+    line-height: 20px;
 }
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .benefit-brand img {
