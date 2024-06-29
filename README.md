@@ -8,7 +8,7 @@ I specified the name of the title in the html so if the website has a screen rea
 
 I added an id selector for "search engine optimization" so that when selected at the navigation, it takes the user to the image and information of SEO, since selecting it before didn't take the user anywhere.
 
-I increased the font-size and line-height for the headers to make it easier to read. `
+I increased the font-size and line-height for the paragraphs and headers to make it easier to read. 
 
 
 
