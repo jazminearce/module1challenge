@@ -51,6 +51,11 @@ p {
     line-height: 28px;
     margin-bottom: 20px;
 }
+/*  */
+.information {
+    font-size: 24px;
+    line-height: 30px;
+}
 
 .section {
     font-size: 100px;
@@ -116,6 +121,7 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
+    color: black;
 }
 
 .benefit-brand h3 {
@@ -123,6 +129,7 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
+    color: black;
 }
 
 .benefit-cost h3 {
@@ -130,6 +137,7 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
+    color: black;
 }
 /* decreased margin and max width for each benefit image */
 .benefit-lead img {
@@ -198,7 +206,7 @@ p {
     box-shadow: 10px 20px 10px black;
 
 }
-/* decreased font size for all h2 */
+/* decreased font size for all h2 and changed color to black so it's easier to distinguish*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 30px;
