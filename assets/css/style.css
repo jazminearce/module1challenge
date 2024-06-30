@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* increased font size */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* increased font size, line height, and added margin to make it easier to read the paragraphs */
 p {
     font-size: 22px;
     line-height: 28px;
@@ -55,7 +55,7 @@ p {
 .section {
     font-size: 100px;
 }
-
+/* added responsive element to hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -82,7 +82,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* increased font size */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -109,6 +109,7 @@ p {
     margin-bottom: 10px;
     color: #ffffff;
 }
+/* increased font size and line height for each h3*/
 
 .benefit-lead h3 {
     margin-bottom: 5px;
@@ -130,7 +131,7 @@ p {
     font-size: 24px;
     line-height: 20px;
 }
-
+/* decreased margin and max width for each benefit image */
 .benefit-lead img {
     display: block;
     margin: 5px auto;
@@ -148,7 +149,7 @@ p {
     margin: 5px auto;
     max-width: 120px;
 }
-
+/* increased line height */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,6 +157,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    line-height: 40px;
 }
 
 .online-reputation-management {
@@ -165,6 +167,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    line-height: 40px;
+
 }
 
 .social-media-marketing {
@@ -174,33 +178,40 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+    line-height: 40px;
 
+}
+/* added box shadow for photos to stand out */
 .search-engine-optimization img {
     max-height: 200px;
+    box-shadow: 10px 20px 10px black;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    box-shadow: 10px 20px 10px black;
+
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+    box-shadow: 10px 20px 10px black;
 
+}
+/* decreased font size for all h2 */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .footer {
