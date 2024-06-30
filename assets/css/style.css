@@ -64,7 +64,7 @@ p {
     background-size: cover;
     background-position: center;
     display: block;
-    
+    max-width: 100%;
 }
 
 .float-left {
