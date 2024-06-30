@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #152F3D;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;    
+    background-color: #ffffff;
+    color: #152F3D;    
 }
 
 .header h1 {
@@ -21,8 +21,9 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: teal;
 }
+
 /* increased font size */
 .header div {
     padding-top: 15px;
@@ -42,7 +43,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #152F3D;
     text-decoration: none;
 }
 /* increased font size, line height, and added margin to make it easier to read the paragraphs */
@@ -51,7 +52,7 @@ p {
     line-height: 28px;
     margin-bottom: 20px;
 }
-/*  */
+/* added id class*/
 .information {
     font-size: 24px;
     line-height: 30px;
@@ -96,23 +97,29 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #ffffff;
+    color: #152F3D;
     font-size: 20px;
+}
+
+.benefits-info {
+    font-size: 22px;
+    color: #152F3D;
 }
 
 .benefit-lead {
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #152F3D;
 }
 
 .benefit-brand {
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #152F3D;
 }
 
 .benefit-cost {
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #152F3D;
 }
 /* increased font size and line height for each h3*/
 
@@ -121,7 +128,7 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
-    color: black;
+    color:#152F3D;
 }
 
 .benefit-brand h3 {
@@ -129,7 +136,7 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
-    color: black;
+    color: #152F3D;
 }
 
 .benefit-cost h3 {
@@ -137,25 +144,25 @@ p {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
-    color: black;
+    color: #152F3D;
 }
 /* decreased margin and max width for each benefit image */
 .benefit-lead img {
     display: block;
-    margin: 5px auto;
-    max-width: 120px;
+    margin: 1px auto;
+    max-width: 100px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 5px auto;
-    max-width: 120px;
+    margin: 1px auto;
+    max-width: 100px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 5px auto;
-    max-width: 120px;
+    margin: 1px auto;
+    max-width: 100px;
 }
 /* increased line height */
 .search-engine-optimization {
@@ -163,8 +170,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #152F3D;
     line-height: 40px;
 }
 
@@ -173,8 +180,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #152F3D;
     line-height: 40px;
 
 }
@@ -184,8 +191,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #152F3D;
     line-height: 40px;
 
 }
@@ -206,23 +213,20 @@ p {
     box-shadow: 10px 20px 10px black;
 
 }
-/* decreased font size for all h2 and changed color to black so it's easier to distinguish*/
+/* decreased font size for all h2*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: black;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: black;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: black;
 }
 
 .footer {
@@ -230,8 +234,10 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: white;
 }
 
 .footer h2 {
     font-size: 20px;
+    color: white;
 }
