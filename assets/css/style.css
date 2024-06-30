@@ -63,6 +63,8 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    display: block;
+    
 }
 
 .float-left {
